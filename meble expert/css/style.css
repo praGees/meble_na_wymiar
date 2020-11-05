@@ -3,7 +3,7 @@ html{
 }
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #e3f2fd ;
+  background: linear-gradient(#eaf6f6, #5f93f1);
 }
 /* -------navigation------  */
 nav ul a,
@@ -81,7 +81,7 @@ p {
   display: flex;
 }
 .parallax-container {
-  min-height: 380px;
+  min-height: 500px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -113,10 +113,30 @@ footer.page-footer {
 }
 .offer-box{
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offer-box .bold{
+  font-weight: 800;
 }
 .offer-box ol{
   list-style: disc;
   text-align: left;
+  margin-bottom: 50px;
+}
+.offer-box .download{
+  color: #4e4ed6;
+  font-weight: 800;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  opacity: 0.8;
+}
+.download:hover{
+  opacity: 1;
+  box-shadow: 5px 5px 10px gray;
 }
 .waves-effect{
   border-radius: 10px;
@@ -131,6 +151,42 @@ footer{
 }
 .about-box{
   text-align: center;
+  width: 1000px;
+  font-size: 1.5rem;
+}
+.center p{
+  width: 800px;
+  font-size: 24px;
+}
+.footer-info{
+  text-align: left;
+  display: flex;
+}
+.footer-info .fb-icon img{
+  width: 50px;
+  height: 50px;
+}
+.icon-box img{
+  width: 50px;
+  height: 50px;
+}
+.fb-paragraph{
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.mail{
+  font-size: 24px;
+}
+.offer-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.offer-box .bold{
+  width: 100%;
 }
 /* ----media---- */
 
@@ -149,12 +205,3 @@ footer{
     top: 0;
   }
 }
-
-/* @keyframes appear{
-  0%{
-      opacity: 0;
-  }
-  100%{
-      opacity: 1;
-  }
-} */
