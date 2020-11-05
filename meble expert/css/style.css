@@ -78,7 +78,6 @@ p {
 }
 .section{
   padding-top: 30px;
-  display: flex;
 }
 .parallax-container {
   min-height: 500px;
@@ -146,16 +145,16 @@ footer.page-footer {
 footer{
   text-align: center;
 }
+
 .btn{
   margin: 10px;
 }
 .about-box{
   text-align: center;
-  width: 1000px;
   font-size: 1.5rem;
+
 }
 .center p{
-  width: 800px;
   font-size: 24px;
 }
 .footer-info{
@@ -188,6 +187,7 @@ footer{
 .offer-box .bold{
   width: 100%;
 }
+
 /* ----media---- */
 
 @media only screen and (max-width : 992px) {
